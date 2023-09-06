@@ -2,7 +2,7 @@ import styled from "styled-components";
 import logo from "./assets/logo.png";
 import perfil from "./assets/perfil.png"
 
-const CabecalhoEstilizado = styled.div`
+const CabecalhoEstilizado = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
