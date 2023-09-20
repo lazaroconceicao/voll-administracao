@@ -15,8 +15,8 @@ interface IDados {
 }
 
 const SecaoEstilizada = styled.section`
-background-color: var(--branco);
-border-radius: 16px;
+  background-color: var(--branco);
+  border-radius: 16px;
 `;
 
 function Grafico({ profissionais, consultas }: Props) {
