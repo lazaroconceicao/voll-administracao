@@ -1,8 +1,8 @@
 import IProfissional from "./types/IProfissional"
 import useFetch from "./useFetch"
 
-const useDadosProfissionais = () => {
+const useDadosProfissional = () => {
     return useFetch<IProfissional[]>({url: 'profissionais'});
 }
 
-export default useDadosProfissionais;
+export default useDadosProfissional;
