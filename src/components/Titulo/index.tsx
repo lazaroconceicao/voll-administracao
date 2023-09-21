@@ -22,6 +22,7 @@ const SpanEstilizado = styled.span<Props>`
     width: 25px;
     height: 25px;
     background-image: ${props => props.imagem ? `url(${props.imagem})` : 'none'};
+    margin-right: 10px;
 `;
 
 const TituloEstilizado = styled.h2`

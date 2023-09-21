@@ -9,7 +9,7 @@ const ContainerEstilizado = styled.div`
     box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
     border-radius: 8px;
     color: var(--cinza);
-    margin: 1em 2em 1em;
+    margin: 0px 30px 30px 0px;
 `;
 
 const ListaEstilizada = styled.ul`
